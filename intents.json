@@ -1,0 +1,59 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hello", "Good day"],
+        "responses": ["Hello! Welcome to our Online Learning Platform, your premier destination for online learning. How can I assist you today?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Till next time"],
+        "responses": ["Goodbye! Have a great day ahead."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask."],
+        "context": [""]
+      },
+      {
+        "tag": "courses",
+        "patterns": ["What courses do you offer?", "Can you tell me about your courses?", "Which courses are available?"],
+        "responses": ["Welcome to our Online Learning Platform! We offer a diverse range of courses designed to help you enhance your skills and achieve your learning goals. Our courses cover subjects such as data science, programming languages including Python, C++, and Java, web development, digital marketing, graphic design, and much more. Explore our catalog on our website to find the perfect course for you."],
+        "context": [""]
+      },
+      {
+        "tag": "course_details",
+        "patterns": ["Tell me about the Python course.", "What's included in the Data Science program?"],
+        "responses": ["Our Python course is designed to teach you the fundamentals and advanced concepts of Python programming language. You'll learn about data types, control structures, functions, object-oriented programming, web development with Django, and much more. Our Data Science program covers statistical analysis, machine learning algorithms, data visualization, and hands-on projects using Python libraries like NumPy, Pandas, and Matplotlib."],
+        "context": [""]
+      },
+      {
+        "tag": "enrollment",
+        "patterns": ["How can I enroll in a course?", "What's the process for enrollment?"],
+        "responses": ["Enrolling in a course is easy! Simply visit our website, browse through our course offerings, and select the course you're interested in. Follow the enrollment instructions provided, and you'll be on your way to learning new skills. If you need any assistance, our support team is here to help."],
+        "context": [""]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["How much do your courses cost?", "What's the pricing for your programs?"],
+        "responses": ["Our course pricing varies depending on the program's duration and complexity. We offer both individual course pricing and subscription plans that provide access to multiple courses. Visit our website or contact our sales team for detailed pricing information."],
+        "context": [""]
+      },
+      {
+        "tag": "certification",
+        "patterns": ["Do you offer certifications?", "Can I get certified after completing a course?"],
+        "responses": ["Yes, we offer certifications for most of our courses. Upon successful completion, you'll receive a certificate that validates your skills and knowledge in the respective subject area."],
+        "context": [""]
+      },
+      {
+        "tag": "support",
+        "patterns": ["I need help with my course", "I'm facing issues with my account", "How can I contact support?"],
+        "responses": ["If you need assistance with your course or encounter any issues, please contact our support team at support@example.com or call us at +1-XXX-XXX-XXXX. You can also reach us through our live chat feature available on our website."],
+        "context": [""]
+      }
+    ]
+  }
+  

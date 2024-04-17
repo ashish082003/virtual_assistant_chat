@@ -1,0 +1,19 @@
+
+venv/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyi
+
+__pycache__/
+
+dist/
+build/
+*.egg-info/
+
+lib/
+scripts/
+include/
+.pyvenv.cfg" > .gitignore
