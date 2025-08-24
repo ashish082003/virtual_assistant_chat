@@ -3,9 +3,6 @@ from flask_cors import CORS
 from chatbot import get_response
 from chatbot import predict_class
 import json
-import nltk
-
-nltk.download('punkt')
 
 intents=json.loads(open('intents.json').read())
 app=Flask(__name__)
